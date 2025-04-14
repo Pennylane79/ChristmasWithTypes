@@ -11,17 +11,17 @@ namespace ChristmasWithTypes
             var xmasDay = Christmas.Day.Thursday;
 
             //TODO set Santa's name to Kris Kringle
-            xmas.Kris Kringle = null;
+            xmas.Santa = "Kris Kringle";
 
             //TODO Insert 3 presents you would like for xmas.  They must be strings
-            xmas.Presents = 'Xbox'; "Ninetendo Switch", "Iphone" 3]{ }; 
+            xmas.Presents = new string[3] {"Xbox", "Ninetendo Switch", "Iphone" }; 
 
             //TODO Set the TreeHeight to 10
-            xmas.TreeHeight = null;
+            xmas.TreeHeight = 10;
 
-            Console.WriteLine($"This year christmas falls on {christmas}");
-            Console.WriteLine($"Our tree will be {xmas.TreeHeight} 10 feet high \n");
-            Console.WriteLine("Here are the presents we would like:\"Xbox[\", \"Ninetendo Switch\", \"Iphone\"");
+            Console.WriteLine($"This year christmas falls on {xmasDay}");
+            Console.WriteLine($"Our tree will be {xmas.TreeHeight} feet high \n");
+            Console.WriteLine("Here are the presents we would like:");
 
             foreach (var present in xmas.Presents)
             {
